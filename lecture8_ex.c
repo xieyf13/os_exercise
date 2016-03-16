@@ -28,6 +28,7 @@ void get_paddr(unsigned int vaddr) {
         } else {
             printf("     ---> the value of addr in disk sector 0x%x\n", (pte & 0x7F));
             printf("          and offset is 0x%x --> Value: 0x%x\n", OFFSET(vaddr), disk[res]);
+            return ;
         }
     }
     printf("      --> Translates to Physical Address 0x%x --> Value: 0x%x\n", res, memory[res]);
