@@ -2,6 +2,8 @@
 #include "stdlib.h"
 #include "page2.h"
 
+// memory disk
+
 #define PTD(x) ((x >> 10) & 0x1F)
 #define PTX(x) ((x >> 5) & 0x1F)
 #define OFFSET(x) (x & 0x1F)
