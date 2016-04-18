@@ -1,0 +1,152 @@
+now time: 1
+idle execute
+no procs can be schedule, so current is idle
+now time: 2
+idle execute
+no procs can be schedule, so current is idle
+now time: 3
+idle execute
+no procs can be schedule, so current is idle
+now time: 4
+idle execute
+no procs can be schedule, so current is idle
+now time: 5
+idle execute
+no procs can be schedule, so current is idle
+in create_proc id is 0 exe is 7 deadline is 23
+now time: 6
+idle execute
+select proc 0
+now time: 7
+proc: 0 -- exe 1 need 6 relative_deadline 22
+now time: 8
+proc: 0 -- exe 2 need 5 relative_deadline 21
+in create_proc id is 1 exe is 3 deadline is 27
+now time: 9
+proc: 0 -- exe 3 need 4 relative_deadline 20
+in create_proc id is 2 exe is 4 deadline is 23
+now time: 10
+proc: 0 -- exe 4 need 3 relative_deadline 19
+now time: 11
+proc: 0 -- exe 5 need 2 relative_deadline 18
+in create_proc id is 3 exe is 2 deadline is 33
+now time: 12
+proc: 0 -- exe 6 need 1 relative_deadline 17
+in create_proc id is 4 exe is 7 deadline is 24
+now time: 13
+proc: 0 -- exe 7 need 0 relative_deadline 16
+proc 0 finish -- elapse_time is 7 relative_deadline is 16
+select proc 2
+now time: 14
+proc: 2 -- exe 1 need 3 relative_deadline 22
+now time: 15
+proc: 2 -- exe 2 need 2 relative_deadline 21
+now time: 16
+proc: 2 -- exe 3 need 1 relative_deadline 20
+in create_proc id is 5 exe is 4 deadline is 12
+now time: 17
+proc: 2 -- exe 4 need 0 relative_deadline 19
+proc 2 finish -- elapse_time is 4 relative_deadline is 19
+select proc 5
+now time: 18
+proc: 5 -- exe 1 need 3 relative_deadline 11
+now time: 19
+proc: 5 -- exe 2 need 2 relative_deadline 10
+now time: 20
+proc: 5 -- exe 3 need 1 relative_deadline 9
+now time: 21
+proc: 5 -- exe 4 need 0 relative_deadline 8
+proc 5 finish -- elapse_time is 4 relative_deadline is 8
+select proc 4
+now time: 22
+proc: 4 -- exe 1 need 6 relative_deadline 23
+now time: 23
+proc: 4 -- exe 2 need 5 relative_deadline 22
+now time: 24
+proc: 4 -- exe 3 need 4 relative_deadline 21
+now time: 25
+proc: 4 -- exe 4 need 3 relative_deadline 20
+now time: 26
+proc: 4 -- exe 5 need 2 relative_deadline 19
+now time: 27
+proc: 4 -- exe 6 need 1 relative_deadline 18
+now time: 28
+proc: 4 -- exe 7 need 0 relative_deadline 17
+proc 4 finish -- elapse_time is 7 relative_deadline is 17
+select proc 1
+now time: 29
+proc: 1 -- exe 1 need 2 relative_deadline 26
+in create_proc id is 6 exe is 2 deadline is 37
+now time: 30
+proc: 1 -- exe 2 need 1 relative_deadline 25
+now time: 31
+proc: 1 -- exe 3 need 0 relative_deadline 24
+proc 1 finish -- elapse_time is 3 relative_deadline is 24
+select proc 3
+now time: 32
+proc: 3 -- exe 1 need 1 relative_deadline 32
+in create_proc id is 7 exe is 9 deadline is 24
+now time: 33
+proc: 3 -- exe 2 need 0 relative_deadline 31
+proc 3 finish -- elapse_time is 2 relative_deadline is 31
+select proc 7
+now time: 34
+proc: 7 -- exe 1 need 8 relative_deadline 23
+now time: 35
+proc: 7 -- exe 2 need 7 relative_deadline 22
+now time: 36
+proc: 7 -- exe 3 need 6 relative_deadline 21
+now time: 37
+proc: 7 -- exe 4 need 5 relative_deadline 20
+now time: 38
+proc: 7 -- exe 5 need 4 relative_deadline 19
+now time: 39
+proc: 7 -- exe 6 need 3 relative_deadline 18
+now time: 40
+proc: 7 -- exe 7 need 2 relative_deadline 17
+now time: 41
+proc: 7 -- exe 8 need 1 relative_deadline 16
+now time: 42
+proc: 7 -- exe 9 need 0 relative_deadline 15
+proc 7 finish -- elapse_time is 9 relative_deadline is 15
+select proc 6
+now time: 43
+proc: 6 -- exe 1 need 1 relative_deadline 36
+now time: 44
+proc: 6 -- exe 2 need 0 relative_deadline 35
+proc 6 finish -- elapse_time is 2 relative_deadline is 35
+no procs can be schedule, so current is idle
+now time: 45
+idle execute
+no procs can be schedule, so current is idle
+now time: 46
+idle execute
+no procs can be schedule, so current is idle
+now time: 47
+idle execute
+no procs can be schedule, so current is idle
+now time: 48
+idle execute
+no procs can be schedule, so current is idle
+now time: 49
+idle execute
+no procs can be schedule, so current is idle
+now time: 50
+idle execute
+no procs can be schedule, so current is idle
+now time: 51
+idle execute
+no procs can be schedule, so current is idle
+now time: 52
+idle execute
+no procs can be schedule, so current is idle
+now time: 53
+idle execute
+no procs can be schedule, so current is idle
+now time: 54
+idle execute
+no procs can be schedule, so current is idle
+now time: 55
+idle execute
+no procs can be schedule, so current is idle
+all proc has finished
